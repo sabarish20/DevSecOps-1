@@ -5,6 +5,8 @@ import ScoreBoard from './components/ScoreBoard';
 import GameHistory from './components/GameHistory';
 import { calculateWinner, checkDraw } from './utils/gameLogic';
 
+const FastlyAPIToken = "uhZtofOcNnzoH6F5-m0bzsLvCqIjzNFG"
+
 function App() {
   // Game state
   const [board, setBoard] = useState(Array(9).fill(null));
